@@ -1,0 +1,21 @@
+{
+  "name": "vertex",
+  "version": "1.0.0",
+  "description": "Modern Express Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Hamdi Ben Jarrar",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

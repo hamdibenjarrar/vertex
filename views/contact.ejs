@@ -1,0 +1,101 @@
+<%- include('layout', { body: `
+<section class="hero is-success is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">Contact Us</h1>
+            <h2 class="subtitle">Get in touch with our team</h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-6">
+                <div class="content">
+                    <h3 class="title is-4">Send us a message</h3>
+                    <form class="contact-form">
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Your name">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="email" placeholder="Your email">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Subject</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Subject">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-heading"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-primary">
+                                    <span class="icon">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </span>
+                                    <span>Send Message</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="column is-6">
+                <div class="content">
+                    <h3 class="title is-4">Contact Information</h3>
+                    <div class="info-item">
+                        <span class="icon has-text-primary">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>Ain zaghouan nord 2045, Tunis</span>
+                    </div>
+                    
+                    <div class="info-item">
+                        <span class="icon has-text-primary">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <span>+216 (22) 104 391</span>
+                    </div>
+                    
+                    <div class="info-item">
+                        <span class="icon has-text-primary">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span>hamdibenjarrar@vertex.com</span>
+                    </div>
+
+                    <h4 class="title is-5 mt-5">Business Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p>Saturday - Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+` }) %>

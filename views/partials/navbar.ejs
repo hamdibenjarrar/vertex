@@ -1,0 +1,27 @@
+<nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+        <div class="navbar-end">
+            <a href="/" class="navbar-item <%= currentPage === '/' ? 'is-active' : '' %>">
+                <span class="icon"><i class="fas fa-home"></i></span>
+                <span>Home</span>
+            </a>
+            <a href="/services" class="navbar-item <%= currentPage === '/services' ? 'is-active' : '' %>">
+                <span class="icon"><i class="fas fa-microchip"></i></span>
+                <span>Solutions</span>
+            </a>
+            <a href="/contact" class="navbar-item <%= currentPage === '/contact' ? 'is-active' : '' %>">
+                <span class="icon"><i class="fas fa-envelope"></i></span>
+                <span>Contact</span>
+            </a>
+        </div>
+    </div>
+</nav>
